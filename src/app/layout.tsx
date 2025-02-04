@@ -4,11 +4,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import {
-  ClerkProvider,
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
+  ClerkProvider
 } from "@clerk/nextjs";
 
 const geistSans = localFont({
